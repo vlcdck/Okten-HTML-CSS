@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SECTION</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            text-decoration: none;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 25px;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            margin: 20px;
+            font-size: 60px;
+            font-weight: 400;
+        }
+
+        .first {
+            background-color: burlywood;
+            color: white;
+        }
+
+        .second {
+            background-color: plum;
+            color: white;
+        }
+
+        .third {
+            background-color: darkseagreen;
+            color: white;
+        }
+
+        section p a {
+            color: white;
+            font-size: 80px;
+        }
+    </style>
+</head>
+<body>
+<section class="first" id="first">
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto autem consequatur, dolorum eaque est facere
+        ipsum natus neque nisi non nulla obcaecati placeat, qui similique sint soluta temporibus ut? Ad.</p>
+    <p><a href="#second">&#8659;</a></p>
+</section>
+<section class="second" id="second">
+    <p><a href="#first">&#8657;</a></p>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi assumenda cupiditate debitis dolores,
+        ducimus eius eligendi inventore laboriosam laudantium maxime mollitia neque odio, provident quam quasi, sapiente
+        similique tempore.</p>
+    <p><a href="#third">&#8659;</a></p>
+</section>
+<section class="third" id="third">
+    <p><a href="#second">&#8657;</a></p>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi assumenda cupiditate debitis dolores,
+        ducimus eius eligendi inventore laboriosam laudantium maxime mollitia neque odio, provident quam quasi, sapiente
+        similique tempore.</p>
+</section>
+</body>
+</html>

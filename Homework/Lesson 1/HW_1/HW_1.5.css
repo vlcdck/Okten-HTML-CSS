@@ -1,0 +1,24 @@
+body {
+    background-image: url("img/HW_1.5/Gotham city.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: lightgoldenrodyellow;
+    margin-top: 125px;
+}
+h2{
+    text-align: center;
+    font-size: 48px;
+    color: lightgoldenrodyellow;
+}
+p{
+    display: inline-block;
+    font-size: 20px;
+    color: lightgoldenrodyellow;
+}
+img{
+    width: 150px;
+}

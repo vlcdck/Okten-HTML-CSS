@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+.preloader {
+    margin: 40vh auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 40px 0 white, -40px 0 white;
+    animation: anim 0.7s ease-out infinite alternate;
+}
+
+@keyframes anim {
+    from {
+        background: #FFF2;
+        box-shadow: 40px 0 #FFF2, -40px 0 #FFF;
+    }
+    50% {
+        background: white;
+        box-shadow: 40px 0 #FFF2, -40px 0 #FFF2;
+    }
+    to {
+        background: white;
+        box-shadow: 40px 0 #FFF, -40px 0 #FFF2;
+    }
+
+}

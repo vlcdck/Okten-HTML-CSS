@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    /*height: 100vh;*/
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    margin: 3vh 0 1vh 0;
+
+}
+
+hr {
+    width: 93%;
+    height: 3px;
+    background-color: darkgray;
+    margin: 0 auto;
+    border-radius: 35%;
+}
+
+.wrapper {
+    height: auto;
+    /*border: 3px solid;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30vh;
+    height: 35vh;
+    border-radius: 15%;
+    border: 4px solid darkgray;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.card img {
+    width: 60%;
+    padding-bottom: 15px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 2% auto 0;
+}

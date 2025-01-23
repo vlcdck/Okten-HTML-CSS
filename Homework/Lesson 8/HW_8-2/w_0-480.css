@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px){
+    body{
+        padding: 32px 16px;
+    }
+    .card-row{
+        margin: 0;
+    }
+    .card{
+        padding: 0 0 32px 0;
+
+    }
+}

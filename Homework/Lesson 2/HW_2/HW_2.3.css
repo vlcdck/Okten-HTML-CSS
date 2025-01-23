@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    background-color: rgb(60, 118, 82);
+}
+
+.wrapper {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 25vh;
+    height: 20vh;
+    border-radius: 5%;
+    background-color: rgb(201, 232, 201);
+    margin: 15px;
+    padding: 10px;
+    transition: 1.2s;
+}
+
+.box:hover {
+    transform: scale(1.15);
+    transition: 1.2s;
+}
+
+h3 {
+    margin: 10px auto;
+}

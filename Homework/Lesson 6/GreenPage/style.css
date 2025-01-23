@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(60, 137, 138);
+}
+
+.form-block {
+    width: 40vw;
+    height: 50vh;
+    background: white;
+    border-radius: 20px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+}
+
+.form-block > h1 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    display: block;
+    height: 25%;
+    width: 100%;
+    padding-top: 35px;
+    background: rgb(235, 243, 243);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.form-registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+
+.form-registration > input {
+    height: 60px;
+    width: 70%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 10px 20px;
+}
+
+.form-registration > input::placeholder {
+    font-size: 22px;
+}
+
+.button__and__checkbox {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.button__and__checkbox input {
+    display: inline-block;
+    margin-left: 7px;
+    transform: translateY(2px);
+    width: 17px;
+    height: 17px;
+}
+.button__and__checkbox>input[type = "submit"]{
+    background: rgb(235,243,243);
+    font-size: 18px;
+    width: 120px;
+    height: 35px;
+    font-family: sans-serif;
+    border: 2px solid gray;
+    border-radius: 10px;
+}

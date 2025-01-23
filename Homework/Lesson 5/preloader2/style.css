@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40vh;
+}
+
+.preloader {
+    border: 25px solid;
+    border-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25) rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.50);
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: anim 1.5s linear infinite;
+}
+
+@keyframes anim {
+    from {
+        border-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25) rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.75);
+    }
+    33% {
+        border-color: rgba(255, 255, 255, 0.75) rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25) rgba(255, 255, 255, 0.35);
+    }
+    66% {
+        border-color: rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.75) rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25);
+    }
+    to {
+        border-color: rgba(255, 255, 255, 0.25) rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.75) rgba(255, 255, 255, 0.15);
+    }
+}

@@ -1,0 +1,542 @@
+body {
+    background: #FAF4F2;
+}
+
+.width-container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+}
+
+/*--------------------header-----------------*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-info {
+    width: 510px;
+}
+
+.header-info h1 {
+    width: 470px;
+    color: #222;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 62px; /* 155% */
+}
+
+.header-info p {
+    color: #222;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    padding-bottom: 55px;
+}
+
+.social-media ul {
+    display: flex;
+    gap: 25px;
+}
+
+.ico-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    transition: 1s;
+}
+
+.ico-block:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.ico-block a {
+    display: block;
+    height: 25px;
+    width: 25px;
+}
+
+.ico-block > a > img {
+    height: 25px;
+    width: 25px;
+}
+
+.facebook-block {
+    background: rgb(126, 116, 248);
+}
+
+.twitter-block {
+    background: rgb(250, 75, 149);
+}
+
+.instagram-block {
+    background: rgb(92, 162, 244);
+}
+
+.telegram-block {
+    background: rgb(255, 142, 112);
+}
+
+.header-btns {
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.header-btns > button:nth-child(1) {
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    background: #FF2950;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.header-btns > button:nth-child(2) {
+    width: 153px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.header-btns > button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.header-img-container {
+    width: 405px;
+    height: 405px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
+    background: url("./img/Person1.jpeg") no-repeat 50% 50%;
+    background-size: cover;
+    transition: 1.5s;
+}
+
+.header-img-container:hover {
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+/*-----------------------main----------------*/
+
+/*--------------------completed projects------------*/
+
+.completed-projects {
+    height: 519px;
+    width: 100%;
+    border-radius: 35px;
+    background: #FF7315;
+    margin: 125px auto;
+    padding: 62px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.completed-projects > img {
+    width: 430px;
+    height: 329px;
+}
+
+.completed-projects h2 {
+    color: #F9F9F9;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 62px; /* 86.111% */
+}
+
+.under-title {
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    margin-top: 16px;
+}
+
+.completed-projects h3 {
+    color: #F9F9F9;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin: 19px 0;
+}
+
+.proj-text {
+    width: 570px;
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 45px; /* 187.5% */
+}
+
+/*-------------------------- hire me --------------------*/
+
+.hire-me {
+    height: 450px;
+    width: 100%;
+}
+
+.hire-me h2 {
+    color: #222;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin-bottom: 100px;
+}
+
+.cards-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+    width: 240px;
+    text-align: center;
+}
+
+.circle {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background-color: rgba(34, 34, 34, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hire-me .card h4 {
+    color: #222;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin: 50px auto 12px;
+}
+
+.hire-me .card p {
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+/*---------------- portfolio -----------*/
+
+.portfolio {
+    padding: 125px 0;
+}
+
+.portfolio h2 {
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+    margin-bottom: 64px;
+}
+
+.portfolio-container {
+    margin: 0 auto;
+    width: 978px;
+    height: 624px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/*---------------- feedback -----------*/
+
+.feedback {
+    background: #FF7315;
+    width: 100%;
+    height: 643px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 48px 0 185px;
+    /*border: 1px solid;*/
+}
+
+.feedback h2 {
+    text-align: center;
+    width: 609px;
+    color: #F9F9F9;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+    margin-bottom: 111px;
+}
+
+.block-content-wrap {
+    display: flex;
+    gap: 82px;
+}
+
+.block-content {
+    width: 529px;
+    height: 179px;
+    border-radius: 30px;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-content p {
+    color: #222;
+    font-size: 24px;
+    font-weight: 400;
+    width: 419px;
+}
+
+/*---------------------- price-plans -----------------*/
+
+.price-plans {
+    margin-top: 643px;
+    padding: 125px 0 100px;
+}
+
+.price-plans h2 {
+    text-align: center;
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+    margin-bottom: 64px;
+}
+
+.price-card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-card {
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-card-head {
+    width: 335px;
+    height: 66px;
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.price-card-head h4 {
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 123.6%; /* 29.664px */
+    text-transform: capitalize;
+}
+
+.price-sum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-sum h5 {
+    color: #2B2B2B;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 123.6%; /* 39.552px */
+    text-transform: capitalize;
+}
+
+.price-sum p {
+    color: #2B2B2B;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+}
+
+.item-list {
+    margin-top: 30px;
+}
+
+.item-list ul li {
+    color: #222;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.close {
+    opacity: 0.7;
+}
+
+.check::before {
+    content: url("img/ico/Check.png");
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    /*top: -5px;*/
+    left: -40px;
+
+}
+
+.close::before {
+    content: url("img/ico/Close.png");
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: -40px;
+    opacity: 0.7;
+}
+
+/*---------------------------- email me -----------------------*/
+
+.email-me {
+    margin: 0 auto;
+    width: 1110px;
+    height: 224px;
+    border-radius: 25px;
+    background: #FF7315;
+    padding: 50px 100px 50px 75px;
+
+}
+
+.email-me-wrap {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-me h3 {
+    width: 343px;
+    color: #F9F9F9;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 62px; /* 172.222% */
+    display: block;
+}
+
+.email-me button {
+    width: 259px;
+    height: 70px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    box-shadow: 0 0.927px 1.924px 0 rgba(0, 0, 0, 0.01);
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.email-me button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/*------------------------- blog -------------------*/
+
+.blog {
+    padding: 125px 0;
+}
+
+.blog h2 {
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin-bottom: 48px;
+}
+
+.card-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog .card {
+    width: 270px;
+    height: 364px;
+    padding: 25px 10px 57px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+}
+
+.blog .card img{
+    border-radius: 15px;
+}
+
+.blog .card h4 {
+    padding: 25px 0 12px;
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 123.6%; /* 19.776px */
+    text-transform: capitalize;
+}
+
+.blog .card p {
+    width: 240px;
+    height: 70px;
+    color: rgba(34, 34, 34, 0.50);
+    font-feature-settings: 'calt' off;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+    text-transform: capitalize;
+    text-align: left;
+}
+
+/*------------------------------ footer ------------------*/
+ footer{
+     background: #F1F1F1;
+     height: 170px;
+     padding-top: 64px;
+     text-align: center;
+ }
+
+footer p{
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+}

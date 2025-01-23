@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.blog-main {
+    background-image: url("img/bg2.jpg");
+    background-size: cover;
+    height: 90vh;
+    padding: 100px;
+}
+
+.about-line {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 65vw;
+    /*border: 4px solid;*/
+}
+
+.blog-title {
+    font-family: "Orbitron", serif;
+    font-size: 40px;
+    margin: 0px auto;
+}
+
+.block-content {
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: whitesmoke;
+    margin: 10px auto;
+    height: 50vh;
+    border: 6px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-title {
+    font-family: "Orbitron", serif;
+    font-size: 35px;
+    margin: 10px auto;
+}
